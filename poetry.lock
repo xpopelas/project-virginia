@@ -1,0 +1,21 @@
+[[package]]
+name = "iso4217"
+version = "1.6.20180829"
+description = "ISO 4217 currency data package for Python"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.dependencies]
+setuptools = "*"
+
+[metadata]
+lock-version = "1.0"
+python-versions = "^3.7"
+content-hash = "aa183ea0af8bd8c9aae8eb6558326a92efbb52f1ef554c8e55f3315d0466a244"
+
+[metadata.files]
+iso4217 = [
+    {file = "iso4217-1.6.20180829-py2.py3-none-any.whl", hash = "sha256:1f34f1c5956c62af0d9a3b91cf7f2566da97670af11fa848c524fb2214a057f9"},
+    {file = "iso4217-1.6.20180829.tar.gz", hash = "sha256:33f404b5eeb3cb8572f132b7c697782eccffeb00630900f305244ffa058e875c"},
+]
