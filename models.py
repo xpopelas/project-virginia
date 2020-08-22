@@ -76,5 +76,12 @@ class Payment:
 
 
 def pay(payment, provider, repository):
+    """
+    Top-level function used to complete all of the processes of payment
+    :param payment: Instance of Payment class, filled with all required forms (value, currency, date and ID)
+    :param provider: Instance of provider class, which complies with ProviderI interface
+    :param repository: Instance of repository class
+    :return: Nothing
+    """
     payment = provider.pay(payment)
     repository.save(payment)
